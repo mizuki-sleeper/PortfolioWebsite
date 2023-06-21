@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+// import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,18 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mizuki Katsuyama </span>
-            from <span className="purple"> Niigata, Japan.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            私の名前は<span className="purple">勝山瑞己</span>
+            です。新潟県出身です。
+            {/* <span className="purple"> Niigata, Japan.</span> */}
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            千葉大学法政経学部の学生で、統計学のゼミに所属しています。
+            {/* <br /> */}
+            しかし、私は現在、休学してプログラミングを学んでいます！
+            <br />
+            <br />
+            最近は、GolangとEchoを用いたクリーンアーキテクチャの実装に取り組んでいます！{" "}
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -29,12 +30,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ color: "rgba(116, 250, 255)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "明るい未来のために毎日努力しよう！"{" "}
           </p>
-          <footer className="blockquote-footer">Mizuki</footer>
+          {/* <footer className="blockquote-footer">Mizuki</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
 body {
   margin: 0;
-  font-family: "Raleway", serif !important;
-  /* font-family: "Noto Sans JP", sans-serif; */
+  /* font-family: "Raleway", serif !important; */
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 600 !important;
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
   background-image: linear-gradient(to left, rgb(67, 67, 67), rgb(0, 0, 0));

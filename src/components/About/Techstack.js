@@ -16,6 +16,7 @@ import {
   SiFlask,
   SiSqlite,
   SiMysql,
+  SiVim,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -60,6 +61,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVim />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
